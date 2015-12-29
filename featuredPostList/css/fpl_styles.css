@@ -1,0 +1,21 @@
+.virt_pl_icon_mask{
+	-webkit-clip-path: polygon(51% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(51% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.virt_pl_icon_medium{
+	width: 70px;
+	height: 70px;
+}
+.virt_pl_icon_medium.virt_pl_icon_mask{
+	width: 60px;
+}
+
+.virt_pl_icon_small{
+	width: 45px;
+	height: 45px;
+}
+
+.virt_pl_icon_small.virt_pl_icon_mask{
+	height: 52px;
+}
