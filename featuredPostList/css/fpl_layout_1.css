@@ -1,0 +1,85 @@
+.amb_pl_icon_mask{
+	-webkit-clip-path: polygon(51% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(51% 0, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.amb_pl_icon_medium{
+	width: 70px;
+	height: 70px;
+}
+.amb_pl_icon_medium.amb_pl_icon_mask{
+	width: 60px;
+}
+
+.amb_pl_icon_small{
+	width: 45px;
+	height: 45px;
+}
+
+.amb_pl_icon_small.amb_pl_icon_mask{
+	height: 52px;
+}
+.amb_post_list_widget ul{
+    list-style: none;
+    padding: 0;
+}
+.amb_post_list_widget h2{
+	margin: 0;
+}
+.amb_pl_title_separator{
+	width: 100%;
+    line-height: 3px;
+    margin: 18px auto 35px auto;
+}
+.amb_pl_title_dots, .amb_pl_title_line{
+	display: inline-block;
+	vertical-align: middle;
+}
+.amb_pl_title_line{
+	width: calc(100% - 50px);
+	height: 1px;
+	background: #E0E0E0;
+}
+.amb_pl_title_dots span{
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    background: #F09E14;
+    border-radius: 100%;
+    margin-right: 8px;
+    box-shadow: 0px 0px 3px inset;
+}
+.amb_post_list_widget ul li{
+	padding-bottom: 30px;
+    border-bottom: dotted 2px #e0e0e0;
+}
+.amb_post_list_widget ul li > article{
+	display: table;
+}
+.amb_pl_content, .amb_pl_icon{
+	display: table-cell;
+	vertical-align: top;
+}
+.amb_pl_content{
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.amb_pl_content h3 a{
+    color: #656565;
+    font-weight: 600;
+}
+.amb_pl_content h3 a:hover{
+	color: #FF8E27;
+	text-decoration: none;
+}
+.amb_pl_content h3, .amb_pl_content p{
+	margin: 0 auto 5px auto;
+    line-height: 1.1em;
+}
+.amb_pl_source, .amb_pl_date, .amb_pl_separator{
+	color: #B6B6B6;
+	text-transform: uppercase;
+}
+.amb_pl_separator{
+	margin: 0 5px;
+}
